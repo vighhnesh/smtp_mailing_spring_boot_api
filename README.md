@@ -2,7 +2,7 @@
 
 Endpoint:
 
-> http://localhost:8080/api/mail
+> https://studentassistancehelperapi-production.up.railway.app/api/mail
 
 Request Body:
 
