@@ -202,16 +202,17 @@
                             </tr>
                             <tr>
                                 <td align="center" style="font-size:0px;padding:10px 25px;padding-top:30px;padding-bottom:50px;word-break:break-word;">
-
+                                    <a href=${url}>
                                     <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                                         <tr class='clickable-row' data-href=${url}>
-                                            <td align="center" bgcolor="#2F67F6" role="presentation" style="border:none;border-radius:3px;color:#ffffff;cursor:auto;padding:15px 25px;" valign="middle">
-                                                <p style="background:#ffffff;color:#ffffff;font-family:'Helvetica Neue',Arial,sans-serif;font-size:15px;font-weight:normal;line-height:120%;Margin:0;text-decoration:none;text-transform:none;">
-                                                    <a href=${url} style="color:#2F67F6">Open</a>
+                                            <td align="center" bgcolor="#2F67F6" role="presentation" style="border:none;border-radius:3px;color:#1f91f8;cursor:auto;padding:15px 25px;" valign="middle">
+                                                <p style="color:#ffffff;font-family:'Helvetica Neue',Arial,sans-serif;font-size:15px;font-weight:normal;line-height:120%;Margin:0;text-decoration:none;text-transform:none;">
+                                                    OPEN
                                                 </p>
                                             </td>
                                         </tr>
                                     </table>
+                                    </a>
                                 </td>
                             </tr>
                             <tr>
