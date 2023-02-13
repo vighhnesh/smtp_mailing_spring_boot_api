@@ -17,7 +17,7 @@ public class AppController {
    private MailService mailService;
 
     @PostMapping(value = "/api/mail",consumes = MediaType.APPLICATION_JSON_VALUE,produces = MediaType.APPLICATION_JSON_VALUE)
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080","https://studentassist.vercel.app/"} )
     public void sendEmail(@RequestBody Mail request) {
         Map<String, Object> model = new HashMap<>();
         model.put("name", request.getName());
