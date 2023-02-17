@@ -1,12 +1,10 @@
 # StudentAssistanceHelperAPI
 
-Endpoint:
+**Endpoint:**
 
-> https://studentassistancehelperapi-production.up.railway.app/api/mail
+> base_url/api/mail
 
-Request Body:
-
-> 
+**Request Body:**
 
         {
             "name":"Student_Name",
@@ -18,4 +16,8 @@ Request Body:
             "subject" : "Leave Note Upload or SAP Issue Ticket Raised"
         }
 
-> Note: type 1 imples Leave note, 2 implies SAP issue
+> Note: type 1 for Leave note template, 2 for SAP issue template
+
+**Template example:**
+
+<img src="https://user-images.githubusercontent.com/90695071/219760518-71d64170-147e-43ab-9ed3-ea6a2aad8d26.jpg" data-canonical-src="https://user-images.githubusercontent.com/90695071/219760518-71d64170-147e-43ab-9ed3-ea6a2aad8d26.jpg" width="300" height="800" />
