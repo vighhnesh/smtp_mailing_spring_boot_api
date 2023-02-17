@@ -173,7 +173,7 @@
                                         <tr>
                                             <td style="width:64px;">
 
-                                                <img height="auto" src="https://rvce.edu.in/sites/default/files/logo_0.png" style="border:0;display:block;outline:none;text-decoration:none;width:100%;" width="64" />
+                                                <img height="auto" src="logo_url" style="border:0;display:block;outline:none;text-decoration:none;width:100%;" width="64" />
 
                                             </td>
                                         </tr>
@@ -219,7 +219,7 @@
                                 <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
 
                                     <div style="font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;line-height:20px;text-align:left;color:#525252;">
-                                        Note: This is a auto generated Email, Please do not reply<br><br>Student Assistance System<br>RV College of Engineering<br>
+                                        Note: This is a auto generated Email, Please do not reply<br><br>Student Assistance System<br>organization_name<br>
                                         <a href=${url} style="color:#2F67F6">${url}</a>
                                     </div>
 
@@ -287,7 +287,7 @@
                                             <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
 
                                                 <div style="font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:300;line-height:1;text-align:center;color:#575757;">
-                                                   Made with Love in #224 ISE, RV College of Engineering, Bengaluru, India
+                                                   Made with Love, organization_name, Bengaluru, India
                                                 </div>
 
                                             </td>
