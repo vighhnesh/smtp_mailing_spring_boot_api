@@ -35,13 +35,7 @@ public class MailServiceImpl implements MailService {
                     StandardCharsets.UTF_8.name());
             // add attachment
             String template;
-            if(model.get("type").equals(1))
-            {
-                template="test-template.ftl";
-            }
-            else {
-                template="sap-template.ftl";
-            }
+            template="test-template.ftl";
             Template t = config.getTemplate(template);
             String html = FreeMarkerTemplateUtils.processTemplateIntoString(t, model);
             helper.setTo(to);

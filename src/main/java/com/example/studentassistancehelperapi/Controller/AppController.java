@@ -21,9 +21,6 @@ public class AppController {
     public void sendEmail(@RequestBody Mail request) {
         Map<String, Object> model = new HashMap<>();
         model.put("name", request.getName());
-        model.put("usn", request.getUsn());
-        model.put("url", request.getUrl());
-        model.put("type",request.getType());
         for(String to : request.getTo()){
            new Thread(new MailThread(mailService,request,model,to)).start();
         }
